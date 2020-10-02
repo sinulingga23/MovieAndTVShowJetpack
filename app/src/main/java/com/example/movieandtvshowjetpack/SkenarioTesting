@@ -1,0 +1,102 @@
+A. Unit Testing ViewModel
+	1.MovieViewModelTest
+		- Memuat listMovies
+		  * Memuat data listMovies dari local.
+		  * Memastikan data listMovies dari repository terpanggil sesuai dengan yang diharapkan.
+		  * Memastikan perubahan data jika terdapat pembaharuan data.
+	2.TVShowViewModelTest
+		- Memuat listTvShow
+		  * Memuat data listMovies dari local
+          * Memastikan data listMovies dari repository terpanggil sesuai dengan yang diharapkan
+          * Memastikan perubahan data jika terdapat pembaharuan data.
+	3.DetailsMovieViewModelTest
+		- Memuat Movie
+		  * Memastikan data movie dari repository terpanggil sesuai dengan yang diharapkan.
+		  * Memastikan perubahan data jika terdapat pembaharuan data.
+	4.DetailsTVShowViewModelTest
+		- Memuat objek TVShow
+		  * Memastikan data tvshow dari repository terpanggil sesuai dengan yang diharapkan.
+          * Memastikan perubahan data jika terdapat pembaharuan data.
+    5.MovieAndTVShowRepositoryTest
+     	- Memuat listMovies
+     	  * Memastikan listMovies dikembalikan saat memanggil data dari repository
+          * Memuat data listMovies
+          * Memastikan listMovies tidak null
+          * Memastikan jumlah item listMovies sesuai dengan yang diharapkan.
+     	- Memuat listTVShow
+     	  * Memastikan listTVShow dikembalikan saat memanggil data dari repository
+          * Memuat data listTVShow
+          * Memastikan listTVShow tidak null
+          * Memastikan jumlah item listTVShow sesuai dengan yang diharapkan.
+     	- Memuat Movie
+     	  * Memastikan movie dikembalikan saat memanggil data dari repository
+          * Memuat data movie
+          * Memastikan movie tidak null
+          * Memastikan title dari movie sesuai dengan yang diharapkan.
+     	- Memuat TVShow
+     	  * Memastikan tVShow dikembalikan saat memanggil data dari repository
+          * Memuat data tvShow
+          * Memastikan tvShow tidak null
+          * Memastikan name dari movie sesuai dengan yang diharapkan.
+     	- Memuat listMoviesAsPaged
+     	  * Memastikan listMoviesAsPaged dikembalikan saat memanggil data dari repository
+          * Memuat data listMoviesAsPaged
+          * Memastikan listMoviesAsPaged tidak null
+          * Memastikan jumlah item listMoviesAsPaged sesuai dengan yang diharapkan.
+     	- Memuat listTVShowAsPaged
+     	  * Memastikan listTVShowAsPaged dikembalikan saat memanggil data dari repository
+          * Memuat data listTVShowAsPaged
+          * Memastikan listTVShowAsPaged tidak null
+          * Memastikan jumlah item listTVShowAsPaged sesuai dengan yang diharapkan.
+	6.FavoriteMovieViewModelTest
+		- Memuat listMoviesAsPaged
+		  * Memuat data listMoviesAsPaged dari local.
+		  * Memastikan data listMoviesAsPaged dari repository terpanggil sesuai dengan yang diharapkan.
+		  * Memastikan perubahan data jika terdapat pembaharuan data.
+	7.FavoriteTVShowViewModelTest
+		- Memuat listTvShowAsPaged
+		  * Memuat data listTvShowAsPaged dari local
+          * Memastikan data listTvShowAsPaged dari repository terpanggil sesuai dengan yang diharapkan
+          * Memastikan perubahan data jika terdapat pembaharuan data.
+
+
+B. Instrumental Testing ViewModel
+	1.MovieFragmentTest
+		- Memuat Movie
+		  * Membuka halaman MovieFragment.
+		  * Memastikan RecyclerView dalam keadaan tampil.
+		  * Memastikan jumlah item RecyclerView sesuai dengan yang diharapkan.
+	2.TVShowFragmentTest
+		- Memuat TVShow
+		  * Membuka halaman TVShowFragment.
+		  * Memastikan RecyclerView dalam keadaan tampil.
+		  * Memastikan jumlah item RecyclerView sesuai dengan yang diharapkan.
+	3.DetailsMovieActivityTest
+		- Memuat Movie
+		  * Membuka halaman DetailsMovieActivity.
+		  * Memastikan TextView untuk title sudah tampil.
+		  * Memastikan value dari title sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk date_detail sudah tampil.
+		  * Memastikan value dari date_detail sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk vote_average_detail sudah tampil.
+		  * Memastikan value dari vote_average_detail sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk overview_detail sudah tampil.
+		  * Memastikan value dari overview_detail sesuai dengan yang diharapkan.
+	4.DetailsTVShowActivityTest
+		- Memuat TVShow
+		  * Membuka halaman DetailsTVShowActivity.
+		  * Memastikan TextView untuk title sudah tampil.
+		  * Memastikan value dari title sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk date_detail sudah tampil.
+		  * Memastikan value dari date_detail sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk vote_average_detail sudah tampil.
+		  * Memastikan value dari vote_average_detail sesuai dengan yang diharapkan.
+		  * Memastikan TextView untuk overview_detail sudah tampil.
+		  * Memastikan value dari overview_detail sesuai dengan yang diharapkan.
+	5.MovieTest
+		- Berpindah ke halaman DetailsMovieActivity
+		  * Membuka halaman MainActivity.
+		  * Memastikan RecyclerView sudah tampil.
+		  * Memberi aksi klik di item pertama RecyclerView.
+		  * Memastikan TextView untuk title sudah tampil.
+		  * Memastikan value dari title sesuai dengan yang diharapkan.

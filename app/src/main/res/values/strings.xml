@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MovieAndTVShowJetpack</string>
+    <string name="title_activity_detail_movie">DetailMovieActivity</string>
+    <string name="title_activity_detail_tvshow">DetailTVShowActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+    <string name="title_movie">title_movie</string>
+    <string name="yyyy_mm_dd">yyyy-MM-dd</string>
+    <string name="overview">Overview</string>
+    <string name="genres_movie">Genres Movie</string>
+    <string name="duration">Duration</string>
+    <string name="country">Country</string>
+    <string name="poster_movie">Poster Movie</string>
+    <string name="date">date</string>
+    <string name="title_tv_show">title_tv_show</string>
+    <string name="overview_tvshow">Overview TVShow</string>
+    <string name="genres_tvshow">Genres TVShow</string>
+    <string name="runtime_tvshow">Runtime TVShow</string>
+    <string name="country_tvshow">Country TVShow</string>
+    <string name="favorite">Favorite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_fav_movie">Favorite Movie</string>
+    <string name="menu_fav_tv_show">Favorite TVShow</string>
+    <string name="confirmation">Hapus item ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">No</string>
+    <string name="list_empty">list empty</string>
+    <string name="yah_belum_ada_item_favorite">Yah, belum ada item favorite.</string>
+</resources>
